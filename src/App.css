@@ -1,0 +1,67 @@
+#root {
+  padding: 30px;
+}
+
+#root > div {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto 20px;
+  padding: 15px;
+  border: 1px solid grey;
+  /* border-radius: 30px; */
+}
+
+input {
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.buttonList {
+  display: flex;
+}
+
+.buttonList button {
+  margin: 0 10px;
+}
+
+.dropDownList {
+  position: absolute;
+  top: 100%;
+  left: -1px;
+  width: calc(100% + 2px);
+  height: fit-content;
+  margin: 0;
+  background-color: white;
+  border: 1px solid grey;
+  /* border-top: none; */
+  z-index: 2;
+}
+
+.dropDownList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+}
+
+.dropDownList img {
+  width: 70px;
+}
+
+.dropDownList h4 {
+  margin: 0;
+}
+
+.dropDownList p {
+  margin: 0;
+}
